@@ -1,8 +1,7 @@
 import pytest
 
-from autotests.config.url import Url
 from autotests.config.playwright import Playwright
-from playwright.sync_api import Browser, BrowserContext, Page, sync_playwright
+from playwright.sync_api import Page, sync_playwright
 
 
 @pytest.fixture()
