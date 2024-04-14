@@ -3,11 +3,11 @@
         "blocks": {
             "personalImpact": {
                 "data": {
-                    "co2": 1,
-                    "energy": 1,
+                    "co2": 0.1,
+                    "energy": 0.5,
                     "materials": 0,
                     "pineYears": 0,
-                    "water": 1
+                    "water": 0.8
                 }
             }
         },
