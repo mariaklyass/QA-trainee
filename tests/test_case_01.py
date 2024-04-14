@@ -1,5 +1,5 @@
 from playwright.sync_api import Page
-from autotests.config.url import Url
+from config.url import Url
 
 
 class TestCase01:
@@ -10,4 +10,4 @@ class TestCase01:
         filtered_counters = [counter for i, counter in enumerate(counters) if (i + 1) % 2 == 0]
 
         for i, counter in enumerate(filtered_counters):
-            counter.screenshot(path=f"../../output/test_case_1_counter_{i + 1}.png")
+            counter.screenshot(path=f"../output/test_case_1_counter_{i + 1}.png")

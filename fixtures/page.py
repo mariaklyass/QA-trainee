@@ -1,6 +1,6 @@
 import pytest
 
-from autotests.config.playwright import Playwright
+from config.playwright import Playwright
 from playwright.sync_api import Page, sync_playwright
 
 
